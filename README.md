@@ -16,7 +16,7 @@
     var dom = document.getElementsByTagName("html")[0];
     var tr = new translator();
     /*
-    * dom-> dom元素 或者自负串  第二个参数0 ->简转繁 1反过来
+    * dom-> dom元素 或者字符串  第二个参数0 ->简转繁 1反过来
     */
     tr.init(dom,0);
 ```
